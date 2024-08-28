@@ -1,0 +1,21 @@
+
+<div class="card mb-2 text-center bg-dark text-center">
+
+  <shared-lyze-Image
+  [url]="gifs.images.downsized_medium.url"
+  [alt]="gifs.title || 'no title'"
+  ></shared-lyze-Image>
+
+  <!-- <img [src]="gifs.images.downsized_medium.url"
+       [alt]="gifs.title"
+       class="card-img-top"> -->
+
+  <div class="card-body text-white">
+
+    <p class="card-text">
+      {{ gifs.title || 'No title'}}
+    </p>
+
+  </div>
+
+</div>
